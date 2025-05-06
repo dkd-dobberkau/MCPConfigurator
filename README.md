@@ -81,3 +81,20 @@ When configurations have overlapping keys, the values from later files take prec
 
 - Python 3.6+
 - Standard library modules only (no external dependencies)
+
+## Testing
+
+The project includes unit tests to ensure functionality. Run the tests with:
+
+```bash
+# Run all unit tests
+python test_mcp_config_manager.py
+```
+
+The test suite covers:
+- Configuration initialization
+- Adding valid and invalid configurations
+- Enabling and disabling configurations
+- Combining configurations (empty, single, and multiple)
+- Deep merge functionality
+- Backup creation
