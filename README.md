@@ -16,7 +16,7 @@ No special installation required. Just make sure you have Python 3.6+ installed.
 
 ```bash
 # Clone the repository (if applicable)
-git clone https://github.com/yourusername/MCPConfigurator.git
+git clone https://github.com/dkd-dobberkau/MCPConfigurator.git
 cd MCPConfigurator
 
 # Make the script executable (Linux/Mac)
